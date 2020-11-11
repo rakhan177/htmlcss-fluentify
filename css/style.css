@@ -147,3 +147,28 @@ transform: translate(0, -50%);
 }
 
 /* / banda grigia main */
+/* section 2 main */
+
+main section:nth-child(2){
+  width: 100%;
+  height: 1000px;
+  background-color: purple;
+}
+
+main section:nth-child(2) > .sezione2{
+  border:1px solid black;
+  width: calc(100% / 3);
+  /* height: 400px; */
+  text-align: center;
+}
+
+main section:nth-child(2) > .sezione2 > img{
+  padding-top: 30px;
+  height: 200px;
+}
+
+main section:nth-child(2) > .sezione2 > h3{
+  padding-top: 30px;
+  color: green;
+  font-size: 20px;
+}
