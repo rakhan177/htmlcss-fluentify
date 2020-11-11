@@ -9,7 +9,6 @@
 .conteiner{
   margin: 0 auto;
   width: 1200px;
-  height: 2000px;
 }
 
 .clearfix{
@@ -248,7 +247,7 @@ footer > .fot-left{
 
 footer .fot-button{
   float: right;
-  height: 100px;
+  height: 82px;
   position: relative;
   top: 18px;
 }
