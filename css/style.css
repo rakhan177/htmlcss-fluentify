@@ -1,0 +1,109 @@
+/* generali */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner{
+  margin: 0 auto;
+  width: 1200px;
+  height: 100vh;
+  background-color: red;
+}
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fl{
+  float: left;
+}
+
+.pdl{
+  padding-left: 100px;
+}
+
+.pdr{
+  padding-right: 100px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.font-size{
+  font-size: 10px;
+}
+
+.bianco{
+  color: #fff;
+}
+
+/* / generali */
+
+/* header */
+
+header{
+  width: 100%;
+  height: 400px;
+  background-color: darkblue;
+}
+
+/* nav */
+
+nav{
+  width: 100%;
+  height: 70px;
+}
+
+/* logo nav */
+
+header nav .logo{
+  width: 150px;
+  height: 70px;
+  position: relative;
+}
+
+header nav .logo img{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+/* / logo nav */
+/* lista nav */
+
+header nav .list-nav{
+  /* height: 70px; */
+}
+
+/* / parte lista nav */
+/* parte di nav input */
+
+header nav .input-nav{
+  height: 70px;
+  float: right;
+}
+
+header nav ul{
+  text-align: center;
+  line-height: 70px;
+}
+
+header nav li{
+  display: inline-block;
+  padding: 0 3px;
+}
+
+/* / nav input */
+/* / nav */
+
+.ciao{
+  width: 100%;
+  height: 330px;
+  background-color: purple;
+}
